@@ -27,9 +27,9 @@ function ProductDetails(props) {
     return (
         <div className="d-flex align-items-center justify-content-start mt-1">
             <h6 className="font-weight-bold my-2" style={{ 'marginRight': 30 }}>${props.price}</h6>
-            <Button eventHandler={decrementCount}>-</Button>
+            <Button eventHandler={decrementCount} disable={productCount===0 }>-</Button>
             <span style={style}>{getProductCount()}</span>
-            <Button eventHandler={incrementCount}>+</Button>
+            <Button eventHandler={incrementCount} disable={ productCount >= props.productStock}>+</Button>
             <span className={badgeClass}>{props.isAvailable ? 'Available' : 'Unavailable'}</span>
         </div>
     )

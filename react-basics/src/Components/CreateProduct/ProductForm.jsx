@@ -89,6 +89,7 @@ function ProductForm(props)
 
         // console.log(product);
         props.createProduct(product);
+        props.onCancel();
     }
     return (
         <>
@@ -114,6 +115,7 @@ function ProductForm(props)
                     <input type="file" className="form-control" id="select-image" placeholder="Add image" value={pImage} onChange={imageInputHandler} />
                 </div>
                 <button type="submit" className="btn btn-primary">Add Product</button>
+                <button type="button" onClick={props.onCancel} className="btn btn-secondary">Cancel</button>
             </form>
         </>
     );

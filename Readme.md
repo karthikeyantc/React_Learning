@@ -32,3 +32,20 @@
 - **Keys** - Keys help React identify which items have changed, are added, or are removed. Keys should be given to the elements inside the array to give the elements a stable identity. It is a special prop that's reserved by React. [Learn more](https://reactjs.org/docs/lists-and-keys.html)
 
 ---
+
+### **1/12/2024**
+
+- **Filter List** - Filter list based on user input. [Learn more](https://reactjs.org/docs/lists-and-keys.html)
+- **Conditional Rendering** - Rendering different components based on a condition. [Learn more](https://reactjs.org/docs/conditional-rendering.html)
+- **Conditional Rendering for Forms** - Conditional rendering for forms based on user input or actions. [Learn more](https://reactjs.org/docs/conditional-rendering.html)
+- **Conditional Rendering using && operator** - In React, you can create elements conditionally using the `&&` operator. This technique allows you to inline render a component or element only when a certain condition is met. [Learn more about conditional rendering in React](https://reactjs.org/docs/conditional-rendering.html)
+- **Fragment** - Fragments let you group a list of children without adding extra nodes to the DOM. [Learn more](https://reactjs.org/docs/fragments.html)
+> **Note:** I decided to use typescript with react. So I will be learning typescript along with react. I will be using typescript in all my react projects from now on.
+- **Typescript** - Typescript is a superset of javascript that adds types to javascript. [Learn more](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+- **Typescript with React** - Typescript can be used with react to add types to react components. [Learn more](https://create-react-app.dev/docs/adding-typescript/)
+- **Props with Typescript** - Props can be typed in typescript using interfaces. [Learn more](https://www.typescriptlang.org/docs/handbook/interfaces.html)
+- **useState with Typescript** - useState can be typed in typescript using generics. [Learn more](https://www.typescriptlang.org/docs/handbook/2/functions.html#using-utility-types)
+- **events with Typescript** - Events can be typed in typescript using generics. [Learn more](https://www.typescriptlang.org/docs/handbook/2/functions.html#using-utility-types)
+
+---
+
