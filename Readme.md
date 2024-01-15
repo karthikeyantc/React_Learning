@@ -6,7 +6,7 @@
 
 ---
 
-### **1/10/2024**
+### **10/01/2024: Reconciliation, Virtual DOM, JSX, Components**
 
 - **Reconciliation** - React's process of syncing changes in the application state with the DOM. [Learn more](https://reactjs.org/docs/reconciliation.html)
 - **Virtual DOM** - Lightweight representation of Real DOM, used by React to minimize direct manipulation of the DOM. [Learn more](https://reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom)
@@ -17,7 +17,7 @@
 
 ---
 
-### **1/11/2024**
+### **11/01/2024: Props, Events, State, Forms, Communication (Parent-Child, Child-Parent), List Rendering, Keys**
 
 - **Props** - Properties, short for properties, are inputs to a React component. They are data passed down from a parent component to a child component. [Learn more](https://reactjs.org/docs/components-and-props.html)
 - **Children Props** - Special prop that allow components to be passed as data to other components. [Learn more](https://reactjs.org/docs/composition-vs-inheritance.html)
@@ -33,7 +33,7 @@
 
 ---
 
-### **1/12/2024**
+### **12/01/2024: Filter List, Conditional Rendering, Fragment, TypeScript with React**
 
 - **Filter List** - Filter list based on user input. [Learn more](https://reactjs.org/docs/lists-and-keys.html)
 - **Conditional Rendering** - Rendering different components based on a condition. [Learn more](https://reactjs.org/docs/conditional-rendering.html)
@@ -51,13 +51,13 @@
 
 ---
 
-### **1/14/2024**
+### **01/14/2024: React Portals**
 
 - **React Portals** - Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. [Learn more](https://reactjs.org/docs/portals.html)
 
 ---
 
-### **1/15/2024**
+### **01/15/2024: React Refs, Side Effects, useEffect**
 
 - **React Refs** - Refs provide a way to access DOM nodes or React elements created in the render method. [Learn more](https://reactjs.org/docs/refs-and-the-dom.html)
 - **React Refs with Typescript** - Refs can be typed in typescript using generics. [Learn more](https://www.typescriptlang.org/docs/handbook/2/functions.html#using-utility-types)
