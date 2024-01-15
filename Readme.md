@@ -40,7 +40,9 @@
 - **Conditional Rendering for Forms** - Conditional rendering for forms based on user input or actions. [Learn more](https://reactjs.org/docs/conditional-rendering.html)
 - **Conditional Rendering using && operator** - In React, you can create elements conditionally using the `&&` operator. This technique allows you to inline render a component or element only when a certain condition is met. [Learn more about conditional rendering in React](https://reactjs.org/docs/conditional-rendering.html)
 - **Fragment** - Fragments let you group a list of children without adding extra nodes to the DOM. [Learn more](https://reactjs.org/docs/fragments.html)
+
 > **Note:** I decided to use typescript with react. So I will be learning typescript along with react. I will be using typescript in all my react projects from now on.
+
 - **Typescript** - Typescript is a superset of javascript that adds types to javascript. [Learn more](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 - **Typescript with React** - Typescript can be used with react to add types to react components. [Learn more](https://create-react-app.dev/docs/adding-typescript/)
 - **Props with Typescript** - Props can be typed in typescript using interfaces. [Learn more](https://www.typescriptlang.org/docs/handbook/interfaces.html)
@@ -49,3 +51,16 @@
 
 ---
 
+### **1/14/2024**
+
+- **React Portals** - Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. [Learn more](https://reactjs.org/docs/portals.html)
+
+---
+
+### **1/15/2024**
+
+- **React Refs** - Refs provide a way to access DOM nodes or React elements created in the render method. [Learn more](https://reactjs.org/docs/refs-and-the-dom.html)
+- **React Refs with Typescript** - Refs can be typed in typescript using generics. [Learn more](https://www.typescriptlang.org/docs/handbook/2/functions.html#using-utility-types)
+- **Side Effects** - Side effects are anything that affects something outside the scope of the function being executed. [Learn more](https://reactjs.org/docs/hooks-effect.html)
+- **useEffect** - Hook that lets you perform side effects in function components. [Learn more](https://reactjs.org/docs/hooks-effect.html)
+- **Empty useEffect dependency array** - If you pass an empty array ([]), the props and state inside the effect will always have their initial values. This may be used in cases where we need to render code only when the component is initialized.  [Learn more](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects)
