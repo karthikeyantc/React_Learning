@@ -64,3 +64,31 @@
 - **Side Effects** - Side effects are anything that affects something outside the scope of the function being executed. [Learn more](https://reactjs.org/docs/hooks-effect.html)
 - **useEffect** - Hook that lets you perform side effects in function components. [Learn more](https://reactjs.org/docs/hooks-effect.html)
 - **Empty useEffect dependency array** - If you pass an empty array ([]), the props and state inside the effect will always have their initial values. This may be used in cases where we need to render code only when the component is initialized.  [Learn more](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects)
+
+---
+
+### **01/17/2024 : React Routing**
+
+- **React Router Dom** - React Router Dom is a collection of navigational components that compose declaratively with your application. [Learn more](https://reactrouter.com/web/guides/quick-start)
+- **BrowserRouter** - A `<BrowserRouter>` uses regular URL paths. [Learn more](https://reactrouter.com/web/api/BrowserRouter)
+- **Route** - The `<Route>` component is the main building block of React Router. Anywhere that you want to only render content based on the location’s pathname, you should use a `<Route>` element. [Learn more](https://reactrouter.com/web/api/Route)
+- **errorElement** - A fallback UI element to display when a `<Route>` fails to render because its path matches the current URL. [Learn more](https://reactrouter.com/web/api/Switch)
+- **Dynamic Routing** - Dynamic routing is the process of routing a request to a specific destination based on the request’s URL. [Learn more](https://reactrouter.com/web/guides/quick-start)
+- **Link** - The `<Link>` component is used to navigate between views of your application. It will render an `<a>` tag that links to a route in the application. [Learn more](https://reactrouter.com/web/api/Link)
+- **NavLink** - A special version of the `<Link>` that will add styling attributes to the rendered element when it matches the current URL. [Learn more](https://reactrouter.com/web/api/NavLink)
+- **Absolute path** - An absolute path is a path that always points to the same location regardless of the working directory. [Learn more](https://reactrouter.com/web/api/Route/path-string-string)
+- **Relative path** - A relative path is a path that points to a file or directory relative to the current working directory. [Learn more](https://reactrouter.com/web/api/Route/path-string-string) 
+
+---
+
+### **01/18/2024 : React Hooks**
+
+- **UseReducer** - The useReducer hook is a more powerful alternative to the useState hook. It is used for state management in React. [Learn more](https://reactjs.org/docs/hooks-reference.html#usereducer)
+
+---
+
+### **01/19/2024 : React Context**
+
+- **React Context** - Context provides a way to pass data through the component tree without having to pass props down manually at every level. [Learn more](https://reactjs.org/docs/context.html)
+- **Context Provider** - Every Context object comes with a Provider React component that allows consuming components to subscribe to context changes. [Learn more](https://reactjs.org/docs/context.html#contextprovider)
+- **Context Consumer** - A React component that subscribes to context changes. Using this component lets you subscribe to a context within a function component. [Learn more](https://reactjs.org/docs/context.html#contextconsumer)
