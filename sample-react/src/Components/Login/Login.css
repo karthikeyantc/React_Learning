@@ -44,7 +44,8 @@
 
 .brand-image {
     max-width: 100%;
-    height: auto;
+    height: 75%;
+    border-radius: 10%;
 }
 
 .login-form-section {
@@ -81,5 +82,11 @@
     .login-form-section {
         flex: none;
         width: 100%;
+    }
+    .brand-image {
+        max-width: 75%;
+    }
+    .login-container {
+        height: 0%;
     }
 }

@@ -1,7 +1,7 @@
 import "./App.css";
 import "primereact/resources/themes/lara-light-amber/theme.css";
 import "primeicons/primeicons.css";
-
+import { PrimeReactProvider } from "primereact/api";
 import AppRoutes from "./Routes";
 
 // const AuthRouter = createBrowserRouter([
@@ -19,9 +19,14 @@ import AppRoutes from "./Routes";
 //     },
 // ]);
 function App() {
+    const value = {
+        ripple: true,
+    };
     return (
         <>
-            <AppRoutes />
+            <PrimeReactProvider value={value}>
+                <AppRoutes />
+            </PrimeReactProvider>
         </>
     );
 }
