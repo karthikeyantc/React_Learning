@@ -1,7 +1,7 @@
 import { Button } from "primereact/button";
 import { Card } from "primereact/card";
 import { InputText } from "primereact/inputtext";
-import { Ripple } from "primereact/ripple";
+// import { Ripple } from "primereact/ripple";
 
 import { useNavigate } from "react-router-dom";
 
@@ -15,9 +15,9 @@ type inputType = {
     isValid: boolean | undefined;
 };
 
-type LoginProps = {
-    onLogin: (email: string, password: string) => void;
-};
+// type LoginProps = {
+//     onLogin: (email: string, password: string) => void;
+// };
 
 const initialEmailState: inputType = {
     value: "",
